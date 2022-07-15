@@ -1,0 +1,32 @@
+<html>
+ <head>
+  <script
+language="JavaScript">
+   function ExibirBandeiraCC(f)
+    {
+     var exp_regVISA   =___;
+     var exp_regMASTER =___;
+     if(exp_regVISA.___(f.___.value))
+      {
+        alert("O cartão digitado é VISA");
+        return true;
+      }
+     if(exp_regMASTER.___(f.___.value))
+      {
+        alert("O cartão digitado é MASTER");
+        return true;
+      }
+     alert("Cartão não é VISA e nem MASTER");
+     return true;
+    }
+  </script>
+ </head>
+ <body>
+  <form name="Num_CC" method=”POST”
+   onSubmit="return ExibirBandeiraCC(this);">
+     <p>Número do CC: <input type="text" name="cc"></p>
+     <p><label><input type="submit" name="Verificar"
+        value="Verificar"></label></p>
+  </form>
+ </body>
+</html>

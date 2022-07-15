@@ -1,0 +1,401 @@
+/* CSS Reset */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: #C4C4C4;    
+}
+
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.cabecalho {
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    position: relative;
+}
+
+.logo {
+    height: auto;
+}
+
+nav {
+    position: relative;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    width: 650px;
+    align-items: center;
+    background-color: #C4C4C4;
+    justify-content: space-around;
+    z-index: 9999;
+    
+}
+
+.menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    background-color: blue;
+    display: block;
+    
+}
+.icone-menu {
+    height: 80px;
+} 
+
+
+.busca-cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+.busca-no-cabecalho {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 790px;
+    height: 50px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#barras {
+    display: none;
+    position: relative;
+}
+
+/* .conteudo-menu {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 195px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+    position: relative;
+} */
+
+.menu-ativo {
+    
+    display: flex;
+ 
+}
+.container h1 {
+    color: white;
+}
+
+.posicionamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.conteudobanner a {
+    position: relative;
+}
+.conteudobanner h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;    
+    justify-content: space-between;
+    align-items: flex-start; 
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.destaque {
+    position: relative;
+}
+
+.novidades h1 {
+       color: black;
+}
+
+.suaexperiencia h4 {
+    color: #000;
+    display: block;
+    justify-content: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .destaque {
+    background-image: url(../img/FundoDestaque.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;        
+} */
+
+/* .destaque1 .esconder-760 .destaque3 .destaque4 {
+    position: relative;
+} */
+
+.rodape {
+    margin: auto;
+    background-color: rgb(8, 192, 8);
+    text-decoration: none;
+    display: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.conteudorodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-decoration: none;
+    align-items: flex-start; 
+
+}
+.nossoendereco {
+    display: block;
+}
+
+.missao h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    display: block;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.seguranca {
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-f1 {
+    background-image: url(../img/FundoDestaque.png);
+    
+}
+
+.banner-cs {
+    background-image: url(../img/Eventos1.png);
+}
+
+.banner-lol {
+    background-image: url(../img/Destaque1.png);
+}
+
+.news-novidades h1 {
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .cabecalho {
+        position: relative;
+   
+    }
+    
+
+    .menu {
+    
+    position: fixed;
+    display: none;
+    
+    width: 250px;
+    top: 80px;
+    right: 0px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #C4C4C4;
+    align-items: center;
+    
+    }
+
+
+    .menu-ativo {
+    
+        display: flex;
+        
+    }
+     
+    #barras {
+        display: inline-block;
+        
+    }
+    
+    .container-grid {
+        width: 90vw;
+    }
+
+    .conteudorodape {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-decoration: none;
+        align-items: flex-start; 
+        width: 80vw;
+    }
+
+    .pagamento {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .cabecalho {
+        position: relative;      
+    }
+    .logo {
+        height: 5vw;
+    }
+
+    .icone-menu {
+        height: 60px;
+    } 
+    
+    
+    .menu {
+        
+    display: none;
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #C4C4C4;
+    align-items: center;
+    }
+
+   
+    .menu-ativo {
+        display: flex;
+       }
+     
+    #barras {
+        display: inline-block;
+                
+    }
+
+    .novidades h1 {
+        color: black;
+        height: 80%;
+ }
+ 
+    .container-grid {
+        width: 90vw;
+    }
+    
+    .rodape {
+        display: flex;
+        flex-direction: column;      
+        text-decoration: none;
+    }
+    .conteudorodape {
+        display: flex;
+        width: 90vm;            
+        flex-direction: column;    
+        justify-content: flex-start;
+        text-decoration: none;
+    }
+
+    
+    .pagamento {
+        width: 75%;
+    }
+    
+    
+@media screen and (max-width: 320px) {
+
+        .cabecalho {
+            position: relative;      
+        }
+        
+        .icone-menu {
+            height: 15vw;
+        } 
+        
+        .menu {
+            
+        display: none;
+        position: fixed;
+        top: 80px;
+        right: 0px;
+        height: 400px;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #C4C4C4;
+        align-items: center;
+        }
+    
+       
+        .menu-ativo {
+            display: flex;
+            /* position: absolute; */
+        }
+         
+        #barras {
+            display: inline-block;
+            
+        }
+        .novidades h1 {
+            color: black;
+            
+     }
+     
+        .container-grid {
+            width: 90vw;
+        }
+        
+        .rodape {
+            display: flex;
+            flex-direction: column;      
+            text-decoration: none;
+            /* width: 100%; */
+        }
+        .conteudorodape {
+            display: flex;
+            width: 90vw;            
+            flex-direction: column;    
+            justify-content: flex-start;
+            text-decoration: none;
+        }
+    
+.esconder-760 {
+    display: none;
+    }
+}
+
+
+
