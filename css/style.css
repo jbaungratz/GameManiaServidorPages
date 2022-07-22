@@ -203,11 +203,11 @@ nav {
 }
 
 .banner-cs {
-    background-image: url(../img/Eventos1.png);
+    background-image: url(../img/FundoDestaque1.png);
 }
 
 .banner-lol {
-    background-image: url(../img/Destaque1.png);
+    background-image: url(../img/FundoDestaque2.png);
 }
 
 .news-novidades h1 {
@@ -334,7 +334,7 @@ nav {
     .pagamento {
         width: 75%;
     }
-    
+}
     
 @media screen and (max-width: 320px) {
 

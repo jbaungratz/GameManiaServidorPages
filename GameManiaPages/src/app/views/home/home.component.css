@@ -1,0 +1,187 @@
+
+
+
+.busca-cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+.busca-no-cabecalho {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 790px;
+    height: 50px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* .conteudo-menu {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 195px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+    position: relative;
+} */
+
+.container h1 {
+    color: white;
+}
+
+.posicionamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.conteudobanner a {
+    position: relative;
+}
+.conteudobanner h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;    
+    justify-content: space-between;
+    align-items: flex-start; 
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.destaque {
+    position: relative;
+}
+
+/* #carrossel {
+    background-repeat: no-repeat;
+    background-size: auto 647px;
+    background-position: center center;
+} */
+
+.banner-f1 {
+    background-image: url(/assets/img/FundoDestaque.png);
+        
+}
+
+.banner-cs {
+    background-image: url(/assets/img/FundoDestaque1.png);
+}
+
+.banner-lol {
+    background-image: url(/assets/img/FundoDestaque2.png);
+}
+
+
+.novidades h1 {
+       color: black;
+}
+
+@media screen and (max-width: 1100px) {
+
+    #carrossel {
+        background-repeat: no-repeat;
+        background-size: auto 650px;
+        background-position: center center;
+    }
+
+    .conteudorodape {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-decoration: none;
+        align-items: flex-start; 
+        width: 80vw;
+    }
+
+    .pagamento {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #carrossel {
+        background: none;
+        
+    }
+
+    .container h1 {
+        color: black;
+    }
+    
+    .novidades h1 {
+        color: black;
+        height: 80%;
+    }
+ 
+    .container-grid {
+        width: 90vw;
+    }
+    
+    .rodape {
+        display: flex;
+        flex-direction: column;      
+        text-decoration: none;
+    }
+    .conteudorodape {
+        display: flex;
+        width: 90vm;            
+        flex-direction: column;    
+        justify-content: flex-start;
+        text-decoration: none;
+    }
+
+    
+    .pagamento {
+        width: 75%;
+    }
+}    
+    
+@media screen and (max-width: 320px) {
+
+    #carrossel {
+        background: none;
+        
+    }
+
+        .novidades h1 {
+            color: black;
+            
+     }
+     
+        .container-grid {
+            width: 90vw;
+        }
+        
+        .rodape {
+            display: flex;
+            flex-direction: column;      
+            text-decoration: none;
+            /* width: 100%; */
+        }
+        .conteudorodape {
+            display: flex;
+            width: 90vw;            
+            flex-direction: column;    
+            justify-content: flex-start;
+            text-decoration: none;
+        }
+    
+        .esconder-760 {
+            display: none;
+            }
+}
+
+
+

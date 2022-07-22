@@ -1,0 +1,14 @@
+<main class="container">
+    <section class="busca-cabecalho">
+        <div class="container-grid busca-no-cabecalho"> 
+            <!-- <input type="text" value="Busca rápida">
+            <a href="buscaprodutoscadastrados" target="">
+                <img class="lupa1" src="./img/lupa 1.png">
+            </a> -->
+        <form [formGroup]="buscaForm" (ngSubmit)="buscaListaProdutos()">
+            <input id="q" formControlName="q" type="buscaProdutosCadastrados" placeholder="Busca rápida" required>
+             <button type="submit"><img class="lupa1" src="assets/img/lupa 1.png"></button>
+             
+        </form>
+       </div>
+    </section>

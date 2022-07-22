@@ -1,0 +1,112 @@
+
+
+.posicionamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.suaexperiencia h4 {
+    color: #000;
+    display: block;
+    justify-content: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .destaque {
+    background-image: url(../img/FundoDestaque.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;        
+} */
+
+/* .destaque1 .esconder-760 .destaque3 .destaque4 {
+    position: relative;
+} */
+
+.rodape {
+    margin: auto;
+    background-color: rgb(8, 192, 8);
+    text-decoration: none;
+    display: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.conteudorodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-decoration: none;
+    align-items: flex-start; 
+
+}
+.nossoendereco {
+    display: block;
+}
+
+.missao h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    display: block;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.seguranca {
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.news-novidades h1 {
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+
+    #carrossel {
+        background-repeat: no-repeat;
+        background-size: auto 650px;
+        background-position: center center;
+    }
+
+    .conteudorodape {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-decoration: none;
+        align-items: flex-start; 
+        width: 80vw;
+    }
+
+    .pagamento {
+        width: 75%;
+    }
+
+    
+    .conteudorodape {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-decoration: none;
+        align-items: flex-start; 
+        width: 80vw;
+    }
+
+    .pagamento {
+        width: 75%;
+    }
+
+
+}
