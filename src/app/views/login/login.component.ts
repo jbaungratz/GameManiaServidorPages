@@ -10,7 +10,6 @@ import { LoginService } from 'src/app/services/login.service';
 export class LoginComponent implements OnInit {
   
   router: any;
-
   constructor(private loginService: LoginService) { }
 
   ngOnInit(): void {
