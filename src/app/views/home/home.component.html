@@ -1,0 +1,75 @@
+
+
+<main class="container">
+    <section class="busca-cabecalho">
+        <div class="container-grid busca-no-cabecalho"> 
+            <!-- <input type="text" value="Busca rápida">
+            <a href="buscaprodutoscadastrados" target="">
+                <img class="lupa1" src="./img/lupa 1.png">
+            </a> -->
+        <form [formGroup]="buscaForm" (ngSubmit)="buscaListaProdutos()">
+            <input id="q" formControlName="q" type="buscaProdutosCadastrados" placeholder="Busca rápida" required>
+             <button type="submit"><img class="lupa1" src="assets/img/lupa 1.png"></button>
+             
+        </form>
+       </div>
+    </section>
+
+    
+<section id="carrossel" class="destaque">
+        <h1>NOVIDADES EM DESTAQUE</h1>
+        <div class="conteudobanner posicionamento">
+            <a href="Destaque1.html" target="_blank"><img class="Destaque1" src="assets/img/Destaque1.png"><h4>Gabinetes em Oferta!</h4></a>
+            <a href="Destaque2.html" target="_blank" class="esconder-760"><img class="Destaque2" src="assets/img/Destaque2.png"><h4>Teclados e Consoles</h4></a>
+            <a href="Destaque3.html" target="_blank"><img class="destaque3" src="assets/img/Destaque3.png"><h4>Notebook I5 e I7</h4></a>
+            <a href="Destaque4.html" target="_blank"><img class="Destaque4" src="assets/img/Destaque4.png"><h4>Acessórios</h4></a>
+        </div>
+</section>
+
+<section class="novidades">
+        <h1>MUNDO GAMER</h1>
+        <div class="conteudobanner posicionamento h4">
+            
+                <a href="mgamer1.html" target="_blank"><img class="mgamer1" src="assets/img/mgamer1.png"></a>
+                <a href="mgamer2.html" target="_blank"><img class="mgamer2" src="assets/img/mgamer2.png"></a>
+                <a href="mgamer3.html" target="_blank"><img class="mgamer3" src="assets/img/mgamer3.png"></a>
+            </div>
+
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="mgamer1" src="./img/mgamer1.png" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="mgamer2" src="./img/mgamer2.png" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="mgamer3" src="./img/mgamer3.png" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+    </div> -->
+
+</section>
+
+
+    <!-- <section id="carrossel" class="banner">
+        <div class="container-grid news-novidades">
+            <h1>Novidades em Destaque</h1>
+        </div>
+    </section> -->
+
+</main>
+

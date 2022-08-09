@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "nome": "José",
+      "email": "jose@gmail.com",
+      "password": "senhajose",
+      "id": 1
+    },
+    {
+      "email": "adriano@gmail.com",
+      "password": "$2a$10$rCo/kus2VFazG/tEmPaNpuNiZbqPnYXtr.oGIQzTRdD2VcDRD/r4O",
+      "nome": "Adriano",
+      "id": 2
+    }
+  ],
+
+  "listaProdutos": [
+    {
+      "id": 1,
+      "categoria": "notebook",
+      "nome": "Ideapad13",
+      "preco": 3200,
+      "descricao": "Notebook Lenovo I5"
+    },
+    {
+      "id": 2,
+      "categoria": "notebook",
+      "nome": "Inspiron15",
+      "preco": 3600,
+      "descricao": "Notebook Dell I3"
+    },
+    {
+      "id": 3,
+      "categoria": "diversos",
+      "nome": "Oculos3D",
+      "preco": 1450,
+      "descricao": "Oculos realidade virtual"
+    },
+    {
+      "id": 4,
+      "categoria": "pc-gamer",
+      "nome": "HD Player",
+      "preco": 5400,
+      "descricao": "PC Gamer Lenovo I7"
+    }
+  ]
+
+}
