@@ -15,6 +15,7 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
   userModel = new User()
   mensagem = ""
 
@@ -39,6 +40,8 @@ export class LoginComponent implements OnInit {
       this.mensagem = erro.error;
     })
   } 
+
+
 
   receberDados() {
     console.log(this.userModel)
